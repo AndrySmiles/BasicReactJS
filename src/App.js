@@ -13,8 +13,8 @@ function App() {
         task: userInput,
         authot: 'user'
       }
-      setMsg([...msg, newItem]);
-      // setMsg(msg => [...msg, newItem]); - синтаксис другой
+
+      setMsg(msg => [...msg, newItem]); - синтаксис другой
     }
   }
 
