@@ -14,7 +14,7 @@ function App() {
         authot: 'user'
       }
 
-      setMsg(msg => [...msg, newItem]); - синтаксис другой
+      setMsg(msg => [...msg, newItem]);
     }
   }
 
